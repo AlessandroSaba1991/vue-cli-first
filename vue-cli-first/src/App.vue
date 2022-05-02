@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <Title_/>
+    <Jumbo_/>
+    <h3>Oleeee</h3>
   </div>
 </template>
 
 <script>
-import Title_ from './components/Title.vue'
-
+import Title_ from "./components/Title.vue";
+import Jumbo_ from "./components/Hero.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Title_
-  }
-}
+    Title_,
+    Jumbo_,
+  },
+};
 </script>
 
 <style lang="scss">
